@@ -1,0 +1,25 @@
+{
+  "name": "apollo-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":" node index.js",
+    "codegen": "graphql-codegen --config codegen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^2.0.3",
+    "apollo-server": "^3.8.1",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "4.0.1",
+    "@graphql-codegen/typescript": "4.0.1",
+    "@graphql-codegen/typescript-resolvers": "4.0.1",
+    "typescript": "^5.1.3"
+  }
+}
